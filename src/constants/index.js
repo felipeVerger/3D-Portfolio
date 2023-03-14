@@ -14,15 +14,19 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    dh,
+    minimahuella,
+    nextjs,
+    realestate,
+    travellers,
+    food,
+    todoapp,
+    gym,
+    spacetourism,
+    youtube,
+    catwiki,
+    traveladvisor,
+    shareme,
   } from "../assets";
   
   export const navLinks = [
@@ -46,17 +50,17 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "React Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI/UX Designer",
       icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -85,6 +89,10 @@ import {
       icon: redux,
     },
     {
+      name: "Next.js",
+      icon: nextjs
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -97,10 +105,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -108,63 +112,30 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer",
+      company_name: "Digital House",
+      icon: dh,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2022 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web application using React.js and other related technologies.",
+        "Collaborating with the team including product managers, product owner and other developers to create high-quality product.",
+        "Implementing responsive design.",
+        "Participating in code reviews.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Data translation",
+      company_name: "Minima Huella",
+      icon: minimahuella,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jul 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Translating the information from the database from Spanish to English and French.",
       ],
     },
   ];
@@ -198,67 +169,188 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Real Estate",
+      description: "Web application for users to explore apartments, villas homes and more. Also the users are able to add filters to the search based on their needs",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "axios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "chakra-ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: realestate,
+      source_code_link: "https://github.com/felipeVerger/BookIt_realestate",
+    },
+    {
+      name: "Travel Landing Page",
+      description: "A simple but beautiful website for travellers with animations",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: travellers,
+      source_code_link: "https://github.com/felipeVerger/landing-page-travel",
+    },
+    {
+      name: "Recipes",
+      description: "In this Web App you can find a wide variety of recipes with their corresponding instructions and ingredients. Plus, you can search for recipes and filter by specific cultures.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "styled-components",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: food,
+      source_code_link: "https://github.com/felipeVerger/Deliciousss",
+    },
+    {
+      name: "ToDo App",
+      description: "Create, update, delete, and mark tasks as done with this modern and intuitive application.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todoapp,
+      source_code_link: "https://github.com/felipeVerger/todo-app",
+    },
+    {
+      name: "Gym Exercises",
+      description: "When the user finds the exercise, they will find instructions and videos for how to perform it. They can search or filter the exercises by muscle area..",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "material-ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gym,
+      source_code_link: "https://github.com/felipeVerger/gym-excercises-clone",
+    },
+    {
+      name: "Space Tourism",
+      description: "Modern application for those interested in space tourism.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: spacetourism,
+      source_code_link: "https://github.com/felipeVerger/space-tourism",
+    },
+    {
+      name: "Youtube clone",
+      description: "Youtube clone, the user can search, filter videos by some categories watch videos.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "axios",
+          color: "green-text-gradient"
+        },
+        {
+          name: "material-ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: youtube,
+      source_code_link: "https://github.com/felipeVerger/youtube-clone",
+    },
+    {
+      name: "Cat Wiki",
+      description: "In this web app you can get to know better about the different types of cat breeds.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "axios",
+          color: "green-text-gradient"
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: catwiki,
+      source_code_link: "https://github.com/felipeVerger/CatWiki",
+    },
+    {
+      name: "Travel Advisor",
+      description: "Search for best restaurants, accommodations and attraction around the world.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "axios",
+          color: "green-text-gradient"
+        },
+        {
+          name: "material-ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: traveladvisor,
+      source_code_link: "https://github.com/felipeVerger/Travel-Advisor",
+    },
+    {
+      name: "ShareMe",
+      description: "Social App to share photos, comment, save and filter them by category.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sanity",
+          color: "green-text-gradient"
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: shareme,
+      source_code_link: "https://github.com/felipeVerger/ShareMe",
     },
   ];
   

@@ -8,7 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -19,16 +18,21 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import nextjs from './tech/nextjs.png'
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import dh from './company/dh.png'
+import minimahuella from './company/minimahuella.jpg';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import realestate from './works/realestate.jpg';
+import catwiki from './works/catwiki.jpg';
+import food from './works/food.jpeg';
+import gym from './works/gym.png';
+import shareme from './works/share-me.png';
+import spacetourism from './works/space-tourism.jpg';
+import todoapp from './works/todoapp.png';
+import traveladvisor from './works/travel-advisor.png';
+import travellers from './works/travellers.jpg';
+import youtube from './works/youtube.jpg';
 
 export {
   logo,
@@ -40,7 +44,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -51,12 +54,17 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  dh,
+  minimahuella,
+  nextjs,
+  catwiki,
+  food,
+  youtube,
+  traveladvisor,
+  travellers,
+  todoapp,
+  spacetourism,
+  shareme,
+  gym,
+  realestate,
 };
