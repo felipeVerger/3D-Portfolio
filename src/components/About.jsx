@@ -42,10 +42,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a software developer with experience 
-        in JavaScript and TypeScript, and expertise in frameworks like React and
+        in JavaScript and TypeScript, and frameworks like React and
         Next.js. Currently, I am looking to work for a company or startup in order to grow personally and collaborate closely
         with clients to create efficient, scalable, and user-friendly solutions
-        that solve real-world problems. Let's work together to bring your ideas to life!
+        that solve real-world problems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

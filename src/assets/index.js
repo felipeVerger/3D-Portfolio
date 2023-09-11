@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import eye from './eye.png';
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -33,6 +34,10 @@ import todoapp from './works/todoapp.png';
 import traveladvisor from './works/travel-advisor.png';
 import travellers from './works/travellers.jpg';
 import youtube from './works/youtube.jpg';
+import blog from './works/blog.png';
+import aisummarizer from './works/ai_summarizer.png';
+import spotify from './works/spotify.png';
+import thread from './works/thread.png';
 
 export {
   logo,
@@ -41,6 +46,7 @@ export {
   mobile,
   web,
   github,
+  eye,
   menu,
   close,
   css,
@@ -67,4 +73,8 @@ export {
   shareme,
   gym,
   realestate,
+  blog,
+  aisummarizer,
+  spotify,
+  thread
 };

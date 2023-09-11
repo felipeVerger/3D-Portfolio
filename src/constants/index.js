@@ -27,6 +27,10 @@ import {
     catwiki,
     traveladvisor,
     shareme,
+    blog,
+    aisummarizer,
+    spotify,
+    thread,
   } from "../assets";
   
   export const navLinks = [
@@ -122,10 +126,10 @@ import {
       iconBg: "#383E56",
       date: "May 2022 - July 2022",
       points: [
-        "Developing and maintaining web application using React.js and other related technologies.",
-        "Collaborating with the team including product managers, product owner and other developers to create high-quality product.",
-        "Implementing responsive design.",
-        "Participating in code reviews.",
+        "Applied responsive web design using styled-components.",
+        "Handling authorization and authentication on the frontend side.",
+        "Rest API consumption to handle CRUD operations.",
+        "Design and development of modern and intuitive interfaces.",
       ],
     },
     {
@@ -135,7 +139,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Jul 2022 - Aug 2022",
       points: [
-        "Translating the information from the database from Spanish to English and French.",
+        "I translated the data from the database from Spanish to English and French.",
       ],
     },
   ];
@@ -187,22 +191,7 @@ import {
       ],
       image: realestate,
       source_code_link: "https://github.com/felipeVerger/BookIt_realestate",
-    },
-    {
-      name: "Travel Landing Page",
-      description: "A simple but beautiful website for travellers with animations",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: travellers,
-      source_code_link: "https://github.com/felipeVerger/landing-page-travel",
+      deploy_link: "https://nimble-gingersnap-217942.netlify.app/"
     },
     {
       name: "Recipes",
@@ -219,22 +208,7 @@ import {
       ],
       image: food,
       source_code_link: "https://github.com/felipeVerger/Deliciousss",
-    },
-    {
-      name: "ToDo App",
-      description: "Create, update, delete, and mark tasks as done with this modern and intuitive application.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: todoapp,
-      source_code_link: "https://github.com/felipeVerger/todo-app",
+      deploy_link: "https://delicousss.netlify.app/"
     },
     {
       name: "Gym Exercises",
@@ -251,26 +225,7 @@ import {
       ],
       image: gym,
       source_code_link: "https://github.com/felipeVerger/gym-excercises-clone",
-    },
-    {
-      name: "Space Tourism",
-      description: "Modern application for those interested in space tourism.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "framer-motion",
-          color: "pink-text-gradient"
-        }
-      ],
-      image: spacetourism,
-      source_code_link: "https://github.com/felipeVerger/space-tourism",
+      deploy_link: "https://gym-exercises-felipe.netlify.app",
     },
     {
       name: "Youtube clone",
@@ -291,6 +246,7 @@ import {
       ],
       image: youtube,
       source_code_link: "https://github.com/felipeVerger/youtube-clone",
+      deploy_link: "https://youtube-clone-fv.netlify.app"
     },
     {
       name: "Cat Wiki",
@@ -311,6 +267,7 @@ import {
       ],
       image: catwiki,
       source_code_link: "https://github.com/felipeVerger/CatWiki",
+      deploy_link: "https://cat-wiki-fv.netlify.app"
     },
     {
       name: "Travel Advisor",
@@ -331,6 +288,7 @@ import {
       ],
       image: traveladvisor,
       source_code_link: "https://github.com/felipeVerger/Travel-Advisor",
+      deploy_link: "https://fv-travel-advisor.netlify.app"
     },
     {
       name: "ShareMe",
@@ -351,6 +309,95 @@ import {
       ],
       image: shareme,
       source_code_link: "https://github.com/felipeVerger/ShareMe",
+      deploy_link: "https://weshare-fv.netlify.app"
+    },
+    {
+      name: "Blogger",
+      description: "Webblog to share anything you want with other people.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GraphQL",
+          color: "green-text-gradient"
+        },
+        {
+          name: "Hygraph",
+          color: "orange-text-gradient"
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blog,
+      source_code_link: "https://github.com/felipeVerger/Blog",
+      deploy_link: "https://blog-brown-eight.vercel.app/"
+    },
+    {
+      name: "AI-Summarizer",
+      description: "Simple and modern interface that uses AI(Chat GPT 4) to summarize any content from a provided URL.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient"
+        }
+      ],
+      image: aisummarizer,
+      source_code_link: "https://github.com/felipeVerger/AI-Summarizer",
+      deploy_link: "https://frolicking-faun-06048e.netlify.app/"
+    },
+    {
+      name: "Spotify clone",
+      description: "Play and like music from other users and add your own music.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Supabase",
+          color: "green-text-gradient"
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: spotify,
+      source_code_link: "https://github.com/felipeVerger/spotify-clone",
+      deploy_link: "https://spotify-clone-bay-six.vercel.app/"
+    },
+    {
+      name: "Threads clone",
+      description: "A thread clone from meta with additional features.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient"
+        },
+        {
+          name: "TailwindCSS",
+          color: "pink-text-gradient"
+        },
+        {
+          name: "Clerk",
+          color: "orange-text-gradient"
+        }
+      ],
+      image: thread,
+      source_code_link: "https://github.com/felipeVerger/threads-clone",
+      deploy_link: "https://threads-clone-woad.vercel.app/"
     },
   ];
   
