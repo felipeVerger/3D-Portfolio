@@ -41,11 +41,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software developer with experience 
-        in JavaScript and TypeScript, and frameworks like React and
-        Next.js. Currently, I am looking to work for a company or startup in order to grow personally and collaborate closely
-        with clients to create efficient, scalable, and user-friendly solutions
-        that solve real-world problems.
+        I'm a fullstack developer with experience creating backend and frontend applications.
+        My favorite technologies to work with are JavaScript, React, Node.js and MongoDB. 
+        Currently, I am looking to work for a company or startup in order to grow personally
+        and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
